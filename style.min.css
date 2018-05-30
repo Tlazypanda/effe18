@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100);
 body,h2,html {
     margin: 0;
     padding: 0;
@@ -35,7 +36,8 @@ body,html {
 }
 
 a,a:active,a:focus,a:hover {
-    outline: 0
+    outline: 0;
+	text-decoration: none;
 }
 
 .hello {
@@ -88,7 +90,8 @@ h2 {
     right: 0;
     font-size: 22px;
     line-height: 1.6em;
-    color: #fff
+    color: #fff;
+	font-family: "Lato";
 }
 
 .mask {
@@ -232,7 +235,7 @@ h2 {
 }
 
 .page--2 .page__inner {
-    background-image: url(images/g.jpg)
+    background-image: url(images/ca.jpg)
 }
 
 .page--2 .text-holder {
@@ -286,7 +289,7 @@ h2 {
 }
 
 .page--3 .page__inner {
-    background-image: url(images/f.jpg)
+    background-image: url(images/caa.jpg)
 }
 
 #page--3-particles {
@@ -1008,4 +1011,73 @@ a.about-link {
         z-index: 100;
         text-align: center
     }
+}
+#p1{
+	background-image: ;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url("images/ca.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+} /* ---- stats.js ---- */
+
+.sp a {
+  color: white;
+  border: 1px solid white;
+  display: table;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  letter-spacing: 0.05em;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+          transform: translate3d(-50%, -50%, 0);
+  text-decoration: none;
+  transition: all 200ms ease;
+  padding: 10px 15px;
+}
+.sp a:hover {
+  background: white;
+  color: black;
+	text-decoration: none;
+}
+.text h1 {
+  color: white;
+	font-family: "Lato";
+  font-size: 2em;
+  font-weight: 100;
+  letter-spacing: 0.2em;
+  
+ 
+}
+a:hover{
+	text-decoration: none;
+}
+
+.perk{
+	position: absolute;
+	margin:auto;
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: auto;
+	color: white;
+}
+
+.perks{
+	align-content: center;
+	font-size: 1.5em;
+	font-weight: 100;
+	letter-spacing: 0.1em;
+	font-family: "Lato";
+	color:white;
+	text-align: center;
 }

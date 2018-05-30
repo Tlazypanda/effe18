@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="/favicon.ico"/>
     <link rel="stylesheet" href="style.min.css">
 	<link rel="stylesheet" href="bootstrap.css">
+	
     <meta property="og:url" content="" />
     <meta property="og:title" content="" />
     <meta property="og:image:width" content="1200" />
@@ -15,6 +16,7 @@
     <meta property="og:image" content="" />
     <meta property="og:description" content="" />
     <meta property="og:type" content="article" />
+	<script src="js/script.js" defer="defer"></script>
 </head>
 <body>
 <div class="pages">
@@ -29,6 +31,7 @@
             <a class="logo-small" href="/"></a>
             <a href="#" class="about-link" >About</a>
             <a href="#image" class="menu-link" target="_blank">Gallery</a>
+			<a href="#image" class="menu-link" target="_blank">Past Sponsors</a>
             <a href="/bar.pdf?2018" class="menu-link" target="_blank">Campus Ambassador</a>
                             <a href=""
                    class="menu-link">Sponsor Us !</a>
@@ -38,7 +41,7 @@
         <a href="/" class="start">Let the Journey Begin</a>
     </div>
 	    <div class="page page--1">
-        <div class="cover zoom page__inner" data-1500="opacity:1;" data-2000="opacity:0.4;">
+        <div class="cover zoom page__inner" data-1500="opacity:1;" data-2000="opacity:0">
             
             <div class="text-holder mask">
                 <div class="text" data-100="top:40%;" data-400="top:30%;" data-600="top:30%;" data-2500="top:-100%;">
@@ -49,8 +52,8 @@
             </div>
         </div>
 			 
-		
-        <div class="page__chooses" data-0="opacity:0;display:none;" data-2000="opacity:0;display:block;" data-2200="opacity:1;display:block;">
+		<div id="particle-js" data-1900="opacity:0;" data-2200="opacity:1;">
+        <div class="page__chooses" id="p1" data-0="opacity:0;display:none;" data-2000="opacity:0;display:block;" data-2200="opacity:1;display:block;">
             <div class="chooses">
                 <div class="chooses__question">But what path to&nbsp;choose?</div>
                 <div class="chooses__desc">Something here.</div>
@@ -62,6 +65,7 @@
             </div>
 				
         </div>
+	</div>
 			<div class="page page--3" data-1900="opacity:0;" data-2600="opacity:1;">
         <div class="cover page__inner" data-4200="opacity:1;" data-5200="opacity:0.4;">
             <div id="page--3-particles"></div>
@@ -76,11 +80,15 @@
 	
     <div id="image" class="page page--2">
         <div class="cover page__inner" data-1300="opacity:1;" data-2000="opacity:1;">
+			
             <div class="cover page--2-smoke" data-0="background-position: 55% 0px;" data-2000="background-position: 55% -200px;"></div>
-            <div class="cover page--2-rock"></div>
+            <div class="cover page--2-rock">
+			</div>
+			<div id="particles-js"></div>
             <div class="text-holder mask">
                 <div class="text" data-100="top:50px;" data-1500="top:-300px;opacity:1;" data-2000="opacity:0;">
-                    <p>Some random text&nbsp; we can have the glimpses here?</p>
+					<h1>Become&nbsp;campus &nbsp;ambassador &nbsp;now!</h1>
+					<p>Some random text&nbsp; we can have the glimpses here?</p>
                 </div>
             </div>
         </div>
@@ -95,14 +103,27 @@
                 </div>
             </div>
         </div>
-        <div class="page__chooses" data-0="opacity:0;display:none;" data-4300="opacity:0;display:block;" data-4500="opacity:1;display:block;">
-            <div class="chooses">
-                <div class="chooses__question">Whom should I&nbsp;follow?</div>
-                <div class="chooses__desc">The bear and the deer as&nbsp;the guardians of&nbsp;the secret path were waiting for me&nbsp;to&nbsp;follow.</div>
-                <a href="#" class="choose choose--bear" "><span></span>Strong Bear</a>
-                <a href="#" class="choose choose--deer" "><span></span>Noble Deer</a>
-            </div>
+        <div class="page__chooses" style="background-image: url(images/caaa.jpg);background-position: center;background-repeat: no-repeat;background-size: cover" data-0="opacity:0;display:none;" data-4300="opacity:0;display:block;" data-4500="opacity:1;display:block;">
+           <div class="perk">
+			<p class="perks">Why become CA?
+improve-skill-icon
+Improve your skill set
+Enhance your communication and managerial skills 
+ 
+contacts-icon
+Increase your contacts
+Interact with people coming from diverse fields across the country to develop your network 
+ 
+enhance-your-image-icon
+Enhance your image
+Be associated with Asia's largest science and technology festival and lead your college to a promising future 
+ 
+leader-icon
+Become the Leader of your College
+				An opportunity to represent your College at a higher level</p>
+			<a class="sp" href="">Register</a>
         </div>
+		</div>
     </div>
     
         </div>
