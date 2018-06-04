@@ -1,4 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,100);
+@import url('https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700');
 body,h2,html {
     margin: 0;
     padding: 0;
@@ -168,8 +170,29 @@ h2 {
     background-image: url(images/internships.png)
 }
 
-.choose--mountain span {
-    background-image: url(images/sponsor-icon-2.png)
+.choose--mountain1 span {
+	display: block;
+    width: 100%;
+    padding-top: 100%;
+    margin: 0 auto 10px;
+    background: center top no-repeat;
+    background-size: 100% auto;
+    background-image: url(images/sponsor-icon-2.png);
+	display: inline-block;
+    min-width: 120px;
+    max-width: 200px;
+    width: 15%;
+    margin: 0 5%;
+    color: #fff;
+    text-decoration: none;
+    opacity: .5;
+    transition: .3s all;
+    vertical-align: top
+}
+
+.choose--mountain1:hover{
+	opacity:1;
+	transition:none;
 }
 
 
@@ -229,7 +252,7 @@ h2 {
 }
 
 .page--2 {
-    background: #000;
+    background-image: url(images/e.jpg);
     z-index: 11;
     opacity: 0
 }
@@ -1013,10 +1036,14 @@ a.about-link {
     }
 }
 #p1{
-	background-image: ;
+	background-image:url(images/f.jpg) ;
+	background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	color: white;
 }
 #particles-js {
   position: absolute;
@@ -1058,13 +1085,13 @@ a.about-link {
  
 }
 a:hover{
-	text-decoration: none;
+	text-decoration: none!important;
 }
 
 .perk{
 	position: absolute;
 	margin:auto;
-	top:0;
+	top:10%;
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -1074,10 +1101,20 @@ a:hover{
 
 .perks{
 	align-content: center;
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: 100;
-	letter-spacing: 0.1em;
-	font-family: "Lato";
-	color:white;
+	text-align: left;
+	font-family: "Josefin Sans";
+	
 	text-align: center;
+}
+
+.head{
+	position: absolute;
+	font-size: 5em;
+	font-family: "Josefin Sans";
+	margin:auto;
+	color:white;
+	top:50%;
+	left:25%;
 }
