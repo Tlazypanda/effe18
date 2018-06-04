@@ -1,10 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300,100);
 @import url('https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
 body,h2,html {
     margin: 0;
     padding: 0;
 	overflow-y: scroll;
+	font-family: "Lato";
 }
 
 .cover,.page--0 {
@@ -1088,15 +1090,22 @@ a:hover{
 	text-decoration: none!important;
 }
 
-.perk{
+.card{
 	position: absolute;
 	margin:auto;
-	top:10%;
-	left: 0;
-	right: 0;
-	bottom: 0;
+	width:700px;
+	top:15%;
+	left:25%;
+	font-family: "Lato";
+	font-weight: 100;
+	font-size: 1.5em;
 	height: auto;
+	
+	padding:25px;
 	color: white;
+
+	background: black;
+	
 }
 
 .perks{
@@ -1108,13 +1117,18 @@ a:hover{
 	
 	text-align: center;
 }
+.card-title{
+	font-family: "Berkshire Swash";
+}
 
 .head{
 	position: absolute;
 	font-size: 5em;
-	font-family: "Josefin Sans";
+	font-family: "Berkshire Swash";
 	margin:auto;
 	color:white;
 	top:50%;
-	left:25%;
+	left:30%;
 }
+
+
