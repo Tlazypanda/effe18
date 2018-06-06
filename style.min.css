@@ -1131,12 +1131,14 @@ a:hover{
 	left:30%;
 }
 
-.Spon{
+.past,.Spon{
 background-color: black;
 color: white;
 font-size: 0.7em;
 	padding: 10px;
 	margin:10px;
+	border-radius: 13px;
+	border:none;
 
 }
 
@@ -1146,6 +1148,23 @@ font-size: 0.7em;
 	
 }
 
+.past:hover{
+	background-color: white;
+	color: black;
+	
+}
+
+.past{
+	
+	border-radius: 13px;
+	border: none;
+}
+
+.links
+{	position: absolute;
+	top:70%;
+	left:30%;
+}
 
 
 
