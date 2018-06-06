@@ -1094,17 +1094,15 @@ a:hover{
 	position: absolute;
 	margin:auto;
 	width:700px;
-	top:15%;
-	left:25%;
+	top:20%;
+	left:30%;
 	font-family: "Lato";
-	font-weight: 100;
-	font-size: 1.5em;
+	font-weight: 900;
+	font-size: 3em;
 	height: auto;
-	
+	width:300px;
 	padding:25px;
-	color: white;
-
-	background: black;
+	color: black;
 	
 }
 
