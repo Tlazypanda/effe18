@@ -843,7 +843,7 @@ a.about-link {
 
 .sharing {
     position: absolute;
-    bottom: 30px;
+    bottom: 50px;
     z-index: 10
 }
 
@@ -1162,7 +1162,7 @@ font-size: 0.7em;
 
 .links
 {	position: absolute;
-	top:70%;
+	top:75%;
 	left:30%;
 }
 
