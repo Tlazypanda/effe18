@@ -1094,10 +1094,10 @@ a:hover{
 	position: absolute;
 	margin:auto;
 	width:700px;
-	top:20%;
-	left:30%;
+	top:17%;
+	left:27%;
 	font-family: "Lato";
-	font-weight: 900;
+	font-weight: 100;
 	font-size: 3em;
 	height: auto;
 	width:300px;
@@ -1105,6 +1105,7 @@ a:hover{
 	color: black;
 	
 }
+
 
 .perks{
 	align-content: center;
@@ -1115,8 +1116,9 @@ a:hover{
 	
 	text-align: center;
 }
-.card-title{
+.card-title h1{
 	font-family: "Berkshire Swash";
+	font-size:1em;
 }
 
 .head{
@@ -1128,5 +1130,22 @@ a:hover{
 	top:50%;
 	left:30%;
 }
+
+.Spon{
+background-color: black;
+color: white;
+font-size: 0.7em;
+	padding: 10px;
+	margin:10px;
+
+}
+
+.Spon:hover{
+	background-color: white;
+	color: black;
+	
+}
+
+
 
 
