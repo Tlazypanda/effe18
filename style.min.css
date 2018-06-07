@@ -172,7 +172,7 @@ h2 {
 .choose--safe span {
     background-image: url(images/internships.png);
 	left:15%;
-	top:25%;
+	top:200%;
 	position: absolute;
 	width: 15%;
 }
@@ -1043,7 +1043,7 @@ a.about-link {
     }
 }
 #p1{
-	background-image:url(images/Untitled%20design.jpg) ;
+	background-image:url(images/aaa.jpg) ;
 	background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -1149,7 +1149,7 @@ font-size: 0.7em;
 
 .Spon{
 	position: absolute;
-	top:50%;
+	top:300%;
 	right:15%;
 	font-size:3em;
 	
@@ -1175,14 +1175,14 @@ font-size: 0.7em;
 
 .links
 {	position: absolute;
-	top:200%;
+	top:500%;
 	right:20%;
 }
 
 .camp{
 	position: absolute;
 	left: 13%;
-	top:400%;
+	top:600%;
 }
 
 
