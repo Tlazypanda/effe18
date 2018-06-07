@@ -117,7 +117,7 @@ h2 {
 
 .chooses {
     top: 15%;
-    left: 20px;
+    left: 10px;
     right: 20px;
     position: absolute;
     font-size: 2vh;
@@ -127,7 +127,8 @@ h2 {
 .chooses__question {
     line-height: 1.2em;
     font-size: 7vh;
-    margin: 0 0 5vh
+    margin: 0 0 5vh;
+	
 }
 
 .chooses__desc {
@@ -169,7 +170,11 @@ h2 {
 }
 
 .choose--safe span {
-    background-image: url(images/internships.png)
+    background-image: url(images/internships.png);
+	left:15%;
+	top:25%;
+	position: absolute;
+	width: 15%;
 }
 
 .choose--mountain1 span {
@@ -1038,7 +1043,7 @@ a.about-link {
     }
 }
 #p1{
-	background-image:url(images/a.jpg) ;
+	background-image:url(images/Untitled%20design.jpg) ;
 	background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -1142,6 +1147,14 @@ font-size: 0.7em;
 
 }
 
+.Spon{
+	position: absolute;
+	top:50%;
+	right:15%;
+	font-size:3em;
+	
+}
+
 .Spon:hover{
 	background-color: white;
 	color: black;
@@ -1162,9 +1175,14 @@ font-size: 0.7em;
 
 .links
 {	position: absolute;
-	top:75%;
-	left:30%;
+	top:200%;
+	right:20%;
 }
 
+.camp{
+	position: absolute;
+	left: 13%;
+	top:400%;
+}
 
 
