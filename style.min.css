@@ -146,7 +146,7 @@ h2 {
     margin: 0 5%;
     color: #fff;
     text-decoration: none;
-    opacity: .5;
+    opacity: .7;
     transition: .3s all;
     vertical-align: top
 }
@@ -169,9 +169,59 @@ h2 {
     background-size: 100% auto
 }
 
+.choose h3{
+	left:10%;
+	top:80%;
+	position: absolute;
+	font-family: "Lato";
+	font-weight: 200;
+}
+
+.choospon {
+    display: inline-block;
+    min-width: 120px;
+    max-width: 200px;
+    width: 15%;
+    margin: 0 5%;
+    color: #fff;
+    text-decoration: none;
+    opacity: .7;
+    transition: .3s all;
+    vertical-align: top
+}
+
+.choospon:hover {
+    opacity: 1;
+    transition: none
+}
+
+
+
+.choospon span {
+    display: block;
+    width: 100%;
+    padding-top: 100%;
+    margin: 0 auto 10px;
+    background: center top no-repeat;
+    background-size: 100% auto;
+	background-image: url(images/a2f583e26522323ebc328aff4d3cdd36.jpg);
+	right:10%;
+	top:200%;
+	position: absolute;
+	width: 15%;
+}
+
+.choospon h3{
+	right:13%;
+	top:80%;
+	position: absolute;
+	font-family: "Lato";
+	font-weight: 200;
+}
+
 .choose--safe span {
-    background-image: url(images/internships.png);
-	left:15%;
+    background-image: url(images/university.png);
+	left:10%;
 	top:200%;
 	position: absolute;
 	width: 15%;
@@ -430,103 +480,6 @@ h2 {
     z-index: 70
 }
 
-.result {
-    width: 90%;
-    height: 90vh;
-    max-width: 980px;
-    max-height: 590px;
-    margin: 5vh auto 0;
-    background: #fff;
-    color: #000;
-    position: relative;
-    overflow: hidden
-}
-
-.result__pic {
-    width: 50%;
-    height: 100%;
-    position: absolute;
-    min-height: 300px;
-    background: center top no-repeat #fff;
-    background-size: contain
-}
-
-.result__pic--eagle {
-    background-image: url(../../promo/images/result/eagle.jpg)
-}
-
-.result__pic--hedgehog {
-    background-image: url(../../promo/images/result/hedgehog.jpg)
-}
-
-.result__pic--adelia {
-    background-image: url(../../promo/images/result/adelia.jpg)
-}
-
-.result__pic--leopard {
-    background-image: url(../../promo/images/result/leopard.jpg)
-}
-
-.result__pic--ermine {
-    background-image: url(../../promo/images/result/ermine.jpg)
-}
-
-.result__pic--salamander {
-    background-image: url(../../promo/images/result/salamander.jpg)
-}
-
-.result__text {
-    margin-left: 50%;
-    padding: 70px 60px 40px 40px
-}
-
-.result__mamuka {
-    font-family: Ubuntu,sans-serif;
-    font-size: 12px;
-    letter-spacing: 2px;
-    margin: 0 0 15px;
-    text-transform: uppercase
-}
-
-.result__animal {
-    font-size: 48px;
-    letter-spacing: 0;
-    margin: 0 0 20px
-}
-
-.result__desc,.result__share {
-    margin: 0 0 60px;
-    letter-spacing: 0
-}
-
-.result__desc {
-    font-size: 18px;
-    line-height: 1.6em
-}
-
-.result__share {
-    font-family: Ubuntu,sans-serif;
-    font-size: 14px;
-    color: #9B9B9B
-}
-
-.result__next,.start {
-    letter-spacing: 2px;
-    text-decoration: none;
-    font-family: Ubuntu,sans-serif;
-    text-transform: uppercase;
-    text-align: center
-}
-
-.result__next {
-    font-size: 16px;
-    color: #000;
-    width: 205px;
-    height: 58px;
-    line-height: 58px;
-    background: url(../../promo/images/button.svg) center center no-repeat;
-    display: inline-block
-}
 
 .start {
     display: block;
@@ -544,9 +497,6 @@ h2 {
     font-size: 18px
 }
 
-.clear {
-    clear: both
-}
 
 .page--8 {
     opacity: 0;
@@ -1043,7 +993,7 @@ a.about-link {
     }
 }
 #p1{
-	background-image:url(images/aaa.jpg) ;
+	background-image:url(images/i%20n%20t%20o%20x%20i%20c%20a%20t%20e.jpg) ;
 	background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -1137,7 +1087,7 @@ a:hover{
 }
 
 .past,.Spon{
-background-color: black;
+background-color:teal;
 color: white;
 font-size: 0.7em;
 	padding: 10px;
@@ -1175,8 +1125,9 @@ font-size: 0.7em;
 
 .links
 {	position: absolute;
-	top:500%;
-	right:20%;
+	top:700%;
+	right:5%;
+	font-size: 2em;
 }
 
 .camp{
