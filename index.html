@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="/favicon.ico"/>
     <link rel="stylesheet" href="style.min.css">
 	<link rel="stylesheet" href="bootstrap.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 
@@ -19,7 +21,7 @@
     <meta property="og:description" content="" />
     <meta property="og:type" content="article" />
     <style type="text/css">
-        @keyframes slidy {
+       /* @keyframes slidy {
         0% { left: 0%; }
         20% { left: 0%; }
         25% { left: -100%; }
@@ -42,7 +44,39 @@
           text-align: left;
           font-size: 0;
           animation: 20s slidy infinite; 
-        }
+        }*/
+		
+		.slider {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: 1s;
+}
+
+img.active {
+  opacity: 1;
+}
+
+span {
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  color: #fff;
+}
+
+span.next {
+  right: 0;
+}
 
     </style>
 
@@ -71,22 +105,16 @@
         <a href="/" class="start">Let the Journey Begin</a>
     </div>
 	<div class="page page--1">
-        <div class="cover zoom page__inner" data-1500="opacity:1;" data-2000="opacity:0">
-            <div id="slider">
-            <figure>
-            <img src="./images/d.jpg" alt>
-            <img src="./images/0083.jpg" alt>
-            <img src="./images/insta4.jpg" alt>
-            <img src="./images/insta14.jpg" alt>
-            <img src="./images/insta13.jpg" alt>
-            <img src="./images/0005.jpg" alt>
-            <img src="./images/0012.jpg" alt>
-            <img src="./images/0061.jpg" alt>
-            <img src="./images/g.jpg" alt>
-            <img src="./images/up5.jpg" alt>
-            <img src="./images/up31.jpg" alt>
-            </figure>
-            </div>
+        <div class="cover zoom page__inner" data-1500="opacity:1;" data-2000="opacity:0;">
+          <div class="slider">
+  <img src='images/d.jpg' class="active">
+  <img src='images/0012.jpg'>
+  <img src='images/0021.jpg'>
+  <img src='images/0031.jpg'>
+  <img src='images/0061.jpg'>
+  <span class="fa fa-chevron-left prev"></span>
+  <span class="fa fa-chevron-right next"></span>
+</div>
             <div class="text-holder mask">
                 <div class="text" data-100="top:40%;" data-400="top:30%;" data-600="top:30%;" data-2500="top:-100%;">
                     
@@ -210,6 +238,25 @@ So do register ,by associating with us as College Ambassadors and thereby mouldi
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
 <script type="text/javascript" src="js/jquery.min.js"></script>
+		<script>
+		$('.slider span.next').click(function() {
+  $current = $(this).siblings('img.active');
+  $next = $current.next('img');
+  if ($next.length != 0) {
+    $current.removeClass('active');
+    $next.addClass('active');
+  }
+})
+$('.slider span.prev').click(function() {
+  $current = $(this).siblings('img.active');
+  $prev = $current.prev('img');
+  if ($prev.length != 0) {
+    $current.removeClass('active');
+    $prev.addClass('active');
+  }
+})
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.30/skrollr.min.js"></script>	
 <script type="text/javascript" src="/en/promo/js/skrollr.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
