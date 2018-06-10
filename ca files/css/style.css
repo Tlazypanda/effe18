@@ -6,6 +6,9 @@
  * Made By MaterializeCSS.com
  */
 
+#index-banner{
+	height: 800px;
+}
 nav ul a,
 nav .brand-logo {
   color: #444;
