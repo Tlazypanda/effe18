@@ -18,6 +18,34 @@
     <meta property="og:image" content="" />
     <meta property="og:description" content="" />
     <meta property="og:type" content="article" />
+    <style type="text/css">
+        @keyframes slidy {
+        0% { left: 0%; }
+        20% { left: 0%; }
+        25% { left: -100%; }
+        45% { left: -100%; }
+        50% { left: -200%; }
+        70% { left: -200%; }
+        75% { left: -300%; }
+        95% { left: -300%; }
+        100% { left: -400%; }
+        }
+
+        body { margin: 0; } 
+        div#slider { overflow: hidden; }
+        div#slider figure img { width: 20%; float: left; }
+        div#slider figure { 
+          position: relative;
+          width: 500%;
+          margin: 0;
+          left: 0;
+          text-align: left;
+          font-size: 0;
+          animation: 20s slidy infinite; 
+        }
+
+    </style>
+
 	<script src="js/script.js" defer="defer"></script>
 </head>
 <body>
@@ -44,15 +72,29 @@
     </div>
 	<div class="page page--1">
         <div class="cover zoom page__inner" data-1500="opacity:1;" data-2000="opacity:0">
-            
+            <div id="slider">
+            <figure>
+            <img src="./images/d.jpg" alt>
+            <img src="./images/0083.jpg" alt>
+            <img src="./images/insta4.jpg" alt>
+            <img src="./images/insta14.jpg" alt>
+            <img src="./images/insta13.jpg" alt>
+            <img src="./images/0005.jpg" alt>
+            <img src="./images/0012.jpg" alt>
+            <img src="./images/0061.jpg" alt>
+            <img src="./images/g.jpg" alt>
+            <img src="./images/up5.jpg" alt>
+            <img src="./images/up31.jpg" alt>
+            </figure>
+            </div>
             <div class="text-holder mask">
                 <div class="text" data-100="top:40%;" data-400="top:30%;" data-600="top:30%;" data-2500="top:-100%;">
-					
+                    
                     <h2 style="overflow-y:hidden;">The Journey Begins</h2>
                     <p>Some random content about effes's greatness&nbsp;blah blah&nbsp;blah blah blah&nbsp;blah blah&nbsp;blah blah&nbsp;beauty </p>
-					<p>let's&nbsp;scroll down further</p>
+                    <p>let's&nbsp;scroll down further</p>
                 </div>
-            </div>
+            </div> 
         </div>
 			 
 		<div id="particle-js" data-1900="opacity:0;" data-2200="opacity:1;">
