@@ -336,33 +336,7 @@ h2 {
     top: 50px
 }
 
-.page--2-rock {
-    background: url(../../promo/images/slide-2-rock.png) center center no-repeat;
-    background-size: cover;
-    z-index: 89
-}
 
-.page--2-smoke {
-    position: absolute;
-    width: 100%;
-    left: 0;
-    background: url(../../promo/images/slide-2-smoke.png) 55% 0 repeat-y;
-    background-size: 8% auto;
-    -webkit-mask-image: linear-gradient(transparent 0,#000 20%,#000 80%,transparent 100%);
-    mask-image: linear-gradient(transparent 0,#000 20%,#000 80%,transparent 100%);
-    -webkit-mask-size: 100% 100%;
-    mask-size: 100% 100%;
-    z-index: 81;
-    top: 20%;
-    height: 50%;
-    overflow: hidden
-}
-
-.page--2-smoke:before {
-    height: 100%;
-    background: url(../../promo/images/slide-2-smoke.png) center top repeat-y;
-    background-size: 100% auto
-}
 
 .page--3 {
     opacity: 0;
@@ -398,23 +372,8 @@ h2 {
     z-index: 40
 }
 
-.page--4 .page__inner {
-    background-image: url(../../promo/images/slide-4.jpg?1)
-}
 
-.page--4-l1 {
-    background: url(../../promo/images/slide-4-l1.png) center center no-repeat;
-    background-size: cover;
-    z-index: 42;
-    animation: blinks 5s infinite
-}
 
-.page--4-l2 {
-    background: url(../../promo/images/slide-4-l2.png) center center no-repeat;
-    background-size: cover;
-    z-index: 42;
-    animation: blinks 8s infinite
-}
 
 .page--4 .text-holder {
     right: 5.2%;
@@ -439,14 +398,8 @@ h2 {
     z-index: 50
 }
 
-.page--5 .page__inner {
-    background-image: url(../../promo/images/slide-5.jpg?2)
-}
 
-.page--5-front {
-    z-index: 59;
-    background-image: url(../../promo/images/slide-5-front.png)
-}
+
 
 .page--5 .text-holder {
     z-index: 55;
@@ -459,14 +412,7 @@ h2 {
     z-index: 60
 }
 
-.page--6 .page__inner {
-    background-image: url(../../promo/images/slide-5.jpg?2)
-}
 
-.page--6-front {
-    z-index: 69;
-    background-image: url(../../promo/images/slide-5-front.png)
-}
 
 .page--6 .text-holder {
     left: 7%;
@@ -477,11 +423,6 @@ h2 {
     top: 75px
 }
 
-.page--7 {
-    opacity: 0;
-    background-image: url(../../promo/images/bg.jpg);
-    z-index: 70
-}
 
 
 .start {
@@ -494,7 +435,7 @@ h2 {
     height: 68px;
     line-height: 68px;
     z-index: 2;
-    background: url(images/start.svg) center center no-repeat;
+    background: center center no-repeat;
     background-size: contain;
     color: #FFF;
     font-size: 18px
