@@ -187,7 +187,8 @@ h2 {
     text-decoration: none;
     opacity: .7;
     transition: .3s all;
-    vertical-align: top
+    vertical-align: top;
+	height:300px;
 }
 
 .choospon:hover {
@@ -225,6 +226,7 @@ h2 {
 	top:200%;
 	position: absolute;
 	width: 15%;
+	height:200px; 
 }
 
 .choose--mountain1 span {
@@ -1126,7 +1128,7 @@ font-size: 0.7em;
 
 .links
 {	position: absolute;
-	top:700%;
+	top:100%;
 	right:5%;
 	font-size: 2em;
 }
