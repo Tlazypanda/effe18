@@ -148,7 +148,8 @@ h2 {
     text-decoration: none;
     opacity: .7;
     transition: .3s all;
-    vertical-align: top
+    vertical-align: top;
+	height: 300px;
 }
 
 .choose1:hover {
