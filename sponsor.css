@@ -1,147 +1,83 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,100);
-body {
-  margin: 0;
-  font-family: "Lato";
-	-webkit-font-smoothing: antialiased;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-	overflow: hidden;
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
 }
 
-
- .some-space, .some-more-space {
-  height: 100%;
-  position: absolute;
-  width: 100%;
-}
-.some-space {
-  animation: rotate 18s 0.5s infinite linear reverse;
-}
-
-.some-more-space {
-  -webkit-animation: rotate 15s 0.1s infinite linear;
-          animation: rotate 15s 0.1s infinite linear;
-}
-
-@-webkit-keyframes rotate {
-  0% {
-    -webkit-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
-            transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
-  }
-  100% {
-    -webkit-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
-            transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
-  }
-}
-
-@keyframes rotate {
-  0% {
-    -webkit-transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
-            transform: rotateZ(0deg) translate3d(0, 1.5%, 0) rotateZ(0deg);
-  }
-  100% {
-    -webkit-transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
-            transform: rotateZ(360deg) translate3d(0, 1.5%, 0) rotateZ(-360deg);
-  }
-}
-h1 {
-  color: white;
-	font-family: "Lato";
-  font-size: 5em;
-  font-weight: 100;
-  letter-spacing: 0.2em;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate3d(-50%, -50%, 0);
-          transform: translate3d(-50%, -50%, 0);
-}
-
-a {
-  color: white;
-  border: 1px solid white;
-  display: table;
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  letter-spacing: 0.05em;
-  -webkit-transform: translate3d(-50%, -50%, 0);
-          transform: translate3d(-50%, -50%, 0);
-  text-decoration: none;
-  transition: all 200ms ease;
-  padding: 10px 15px;
-}
-a:hover {
-  background: white;
-  color: black;
-	text-decoration: none;
-}
-
-canvas {
-  display: block;
-  vertical-align: bottom;
-} /* ---- particles.js container ---- */
-#particles-js {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  background-image: url("images/sponsor.jpg");
-  background-repeat: no-repeat;
+body{
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('images/caa.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
-  background-position: 50% 50%;
+}
+
+nav{
+  margin-top:10px;
+}
+
+.nav-item{
+  background-color:white;
   
-} /* ---- stats.js ---- */
-.count-particles {
-  background: #000022;
-  position: absolute;
-  top: 48px;
-  left: 0;
-  width: 80px;
-  color: #13e8e9;
-  font-size: 0.8em;
-  text-align: left;
-  text-indent: 4px;
-  line-height: 14px;
-  padding-bottom: 2px;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  text-decoration:none;
+  margin-right:10px;
+  border-radius:300px;
+  color:black;
+  padding:0 10px;
+  text-align:center;
+  margin-bottom:5px;
+
 }
 
-#stats,
-.count-particles {
-  -webkit-user-select: none;
-  margin-top: 5px;
-  margin-left: 5px;
-}
-#stats {
-  border-radius: 3px 3px 0 0;
-  overflow: hidden;
-}
-.count-particles {
-  border-radius: 0 0 3px 3px;
+.navbar-brand{
+  color: white;
+text-decoration: none;
+background-color: transparent;
+-webkit-text-decoration-skip: objects;
+font-family: 'Berkshire Swash';
+font-size:140%;
+transition: all 0.2s ease-in-out;
+
+
 }
 
-#past{
-	top:10px;
-	left:0;
-	
+.nav-item a{
+  text-decoration: none;
+
+  color:black;
+  font-family:'Lato', sans-serif;
+  text-transform: uppercase;
+  font-weight:300;
+  
 }
-.tiny-menu {
-	display: inline-block;
-	width: 200px;
-    position: relative;
-    top: 30px;
-    left: 80px;
-    z-index: 10
+
+.navbar-brand:hover{
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+  font-family: 'Berkshire Swash';
+  
+  text-shadow:0px 0px 10px black;  
+  transition: all 0.2s ease-in-out;
 }
-.tiny-menu1 {
-	display: inline-block;
-	width: 100px;
-    position: relative;
-    top: 30px;
-    left: 60px;
-    z-index: 10
+
+.sb{
+  background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+  
+}
+
+.sb a{
+  color:white;
+  font-weight:500;
+}
+
+.jumbotron{
+  background:none;
+  color:white;
+  padding-top:40px;
+  padding-bottom:10px;
 }
