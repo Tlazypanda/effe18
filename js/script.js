@@ -9,6 +9,56 @@ $(document).ready(function() {
             $(".page--" + x).remove();
         }
     }
+
+
+
+let day = document.getElementById("days");
+let hour = document.getElementById("hours");
+let minute = document.getElementById("minutes");
+let second = document.getElementById("seconds");
+var i = 1;
+
+function launchTimer() {
+  if(i == 1){
+    second.style.transform = 'rotateX(0deg)';
+  }
+  else if(i == -1){
+    second.style.transform = 'rotateX(180deg)';
+  }
+
+  i *= -1
+  console.log(day);
+  let currentDate = (new Date()).getTime();
+  var d = new Date();  
+  let launchDate = (new Date(2018, 8, 15, 0)).getTime();
+  
+  let timerDifference = launchDate - currentDate;
+  
+  let seconds = Math.floor(timerDifference/1000);
+  let minutes = Math.floor(seconds/60);
+  let hours = Math.floor(minutes/60);
+  let days = Math.floor(hours/24);
+  
+
+  day.innerText = days;
+  hour.innerText = hours%24;
+  minute.innerText = minutes%60;
+  if(second.innerText != seconds%60){
+    second.innerText = seconds%60;
+  }
+  
+  
+  setTimeout(launchTimer, 500);
+  // day.style.opacity = 1;
+}
+
+launchTimer();
+
+
+
+
+
+
     particlesJS('page--0-particles', {
         "particles": {
             "number": {
