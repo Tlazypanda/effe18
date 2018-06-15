@@ -56,6 +56,18 @@ launchTimer();
 
 
 
+$(document).ready(function(){
+    $('.page--0').mousemove(function(e){
+          var y = e.pageY;
+          var x = e.pageX;                    
+          $('.head').css({'top':  36 + y / 400 + '%'}); 
+          $('.head').css({'left': -1 + x / 800 + '%'});
+          $('.start').css({'top':  60 + y / 400 + '%'}); 
+          $('.start').css({'left': -1 + x / 800 + '%'});
+
+    });
+});
+
 
 
 
