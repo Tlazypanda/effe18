@@ -71,6 +71,16 @@ $(document).ready(function(){
 
 
 
+
+// var options = {
+//   strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
+//   typeSpeed: 40
+// }
+
+// var typed = new Typed(".footer-effe", options);
+
+
+
     particlesJS('page--0-particles', {
         "particles": {
             "number": {

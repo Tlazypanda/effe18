@@ -443,6 +443,12 @@ h2 {
     font-size: 18px
 }
 
+@media only screen and (max-width: 700px){
+    .start{
+        left: 10px;
+    }
+}
+
 
 .page--8 {
     opacity: 0;
@@ -1045,6 +1051,15 @@ a:hover{
     /*left:35%;*/
 }
 
+
+@media only screen and (max-width: 700px){
+    .head{
+        top: 20%;
+        /*color: black;*/
+        font-size: 2em;
+    }
+}
+
 .head:hover
 {
         -webkit-transform: scale(1.1);
@@ -1167,15 +1182,39 @@ font-size: 0.7em;
     transition: opacity 1s;
 }
 
+
+
 .footer:hover{
     opacity: 0.7;
 }
 
+@media only screen and (max-width: 1000px){
+    .footer{
+        width: 110%;
+    }
+}
+
+
 .footer-frame{
     margin-top: 5px;
     margin-bottom: 30px;
-    height: 30px;
+    /*height: 30px;*/
 }
+
+@media only screen and (max-width: 1000px){
+    .footer-frame{
+        margin-top: 0px;
+        margin-bottom: 5px;
+        position: relative;
+        top: -10px;
+    }
+}
+
+/*@media only screen and (max-width: 700px){
+    .footer-frame{
+        font-size: 20px;
+    }
+}*/
 
 @media only screen and (max-width: 1000px){
     .footer-frame{
@@ -1188,6 +1227,11 @@ font-size: 0.7em;
     color: white;
     height: 50px;
 }
+@media only screen and (max-width: 1000px){
+    .footer-logo{
+        height: 20px;
+    }
+}
 
 .footer-effe{
     margin-top:10px;
@@ -1195,9 +1239,10 @@ font-size: 0.7em;
     font-family: "Berkshire Swash";
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1000px){
     .footer-effe{
-        font-size: 15px;
+        font-size: 10px;
+        margin-top: 2px;
     }
 }
 
@@ -1211,6 +1256,13 @@ font-size: 0.7em;
     margin-top: 20px;
     margin-left: 8px;
     font-size: 15px;
+}
+
+@media only screen and (max-width: 1000px){
+    .footer-email{
+        font-size: 5px;
+        margin-top: 5px;
+    }
 }
 
 .contact-heading{
@@ -1247,7 +1299,9 @@ font-size: 0.7em;
     width: 40px;
 }
 
-@media only screen and (max-width: 600px){
+
+
+@media only screen and (max-width: 1000px){
     .images{
         height: 20px;
         width: 20px;
@@ -1294,10 +1348,19 @@ font-size: 0.7em;
 
 .clock{
     position: absolute;
-    left: 50vw;
+    text-align: center;
+    width: 100%;
+    /*left: 50vw;*/
     top: 25%;
     z-index: 1000;
     animation: float 6s ease-in-out infinite;
+}
+
+@media only screen and (max-width: 700px){
+    .clock{
+        left: 20px;
+        top: 30%;
+    }
 }
 
 
@@ -1326,6 +1389,11 @@ font-size: 0.7em;
   font-weight: bold;
   font-style: italic;
 }
+/*@media only screen and (max-width: 700px){
+    #days, #hours, #minutes, #seconds{
+        font-size: 20px;
+    }
+}*/
 
 #days, #hours, #minutes{
   color:rgba(200, 200, 200, 0.8);
@@ -1339,6 +1407,8 @@ font-size: 0.7em;
 }
 
 
+
+
 #seconds{
   color:rgba(200, 200, 200, 0.8);
   font-size: 40px;
@@ -1350,6 +1420,8 @@ font-size: 0.7em;
 
 }
 
+
+
 #days:hover, #hours:hover, #minutes:hover, #seconds:hover{
     color:rgba(200, 200, 200, 1);
 } 
@@ -1360,9 +1432,9 @@ font-size: 0.7em;
     }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
     #days, #hours, #minutes, #seconds{
-        font-size: 20px;
+        font-size: 15px;
     }
 }
 
