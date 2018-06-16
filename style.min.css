@@ -636,7 +636,15 @@ a.about-link {
 }
 
 @media (max-width: 768px) {
-    .contacts {
+	a.menu-link{
+		font-size: 8px;
+		padding-left: 2px;
+		padding-right: 2px;
+	}
+	.tiny-menu{
+		left:0px;
+	}
+	.contacts {
         overflow:auto
     }
 
@@ -646,10 +654,11 @@ a.about-link {
     }
 
     .start {
+		margin: auto;
         width: 300px;
         height: 61px;
         line-height: 61px;
-        margin-left: -150px;
+        top:30vh;
         font-size: 16px;
         color: #FFF;
         letter-spacing: 2px
@@ -900,14 +909,14 @@ a.about-link {
 
 .mobile {
     display: none;
-    background: rgba(0,0,0,.8)
+    background: white;
 }
 
 .mobile__icon {
     margin: 30vh auto 0;
-    width: 15vw;
-    height: 15vw;
-    background: url(images/rotate.svg) center center no-repeat;
+    width: 30vw;
+    height: 30vw;
+    background: url(images/rotate.jpg) center center no-repeat;
     background-size: contain
 }
 
