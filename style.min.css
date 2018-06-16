@@ -900,14 +900,14 @@ a.about-link {
 
 .mobile {
     display: none;
-    background: rgba(0,0,0,.8)
+    background: white;
 }
 
 .mobile__icon {
     margin: 30vh auto 0;
-    width: 15vw;
-    height: 15vw;
-    background: url(images/rotate.svg) center center no-repeat;
+    width: 30vw;
+    height: 30vw;
+    background: url(images/rotate.jpg) center center no-repeat;
     background-size: contain
 }
 
