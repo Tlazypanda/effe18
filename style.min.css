@@ -1030,8 +1030,23 @@ a:hover{
     color:white;
     top:36%;
     text-align: center;
+    z-index: 1000;
+    transition: transform 1s ease-in-out;
+    /*animation: wiggle 6s ease-in-out infinite;*/
     /*left:35%;*/
 }
+
+.head:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
+
+
+
+
+
 
 .past,.Spon{
 background-color:teal;
