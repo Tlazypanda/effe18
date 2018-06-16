@@ -654,10 +654,11 @@ a.about-link {
     }
 
     .start {
+		margin: auto;
         width: 300px;
         height: 61px;
         line-height: 61px;
-        margin-left: -150px;
+        top:30vh;
         font-size: 16px;
         color: #FFF;
         letter-spacing: 2px
