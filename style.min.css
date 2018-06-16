@@ -1134,7 +1134,7 @@ font-size: 0.7em;
 .footer{
     position: absolute;
     /* height: 220px; */
-    width: 100%;
+    width: 100vw;
     text-align: center;
     bottom: 0%;
     background-color: rgb(255,255,255);
@@ -1148,25 +1148,25 @@ font-size: 0.7em;
 }
 
 .footer-frame{
-    margin-top: 15px;
+    margin-top: 5px;
     margin-bottom: 30px;
+    height: 30px;
 }
 
 @media only screen and (max-width: 1000px){
     .footer-frame{
         margin-top: 20px;
-        margin-bottom: 20px;
     }
 }
 
 .footer-logo{
     background-color: #000;
     color: white;
+    height: 50px;
 }
 
 .footer-effe{
     margin-top:10px;
-    margin-bottom: 10px;
     font-size: 30px;
     font-family: "Berkshire Swash";
 }
