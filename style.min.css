@@ -1218,13 +1218,13 @@ font-size: 0.7em;
 
 
 .footer:hover{
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 @media only screen and (max-width: 1000px){
     .footer{
         width: 105%;
-        height: 13%;
+        height: 8%;
         margin-bottom: 0px;
         padding-bottom: 15px;
     }
@@ -1280,7 +1280,7 @@ font-size: 0.7em;
 
 @media only screen and (max-width: 1000px){
     .footer-effe{
-        font-size: 10px;
+        font-size: 20px;
         margin-top: 2px;
     }
 }
@@ -1342,8 +1342,8 @@ font-size: 0.7em;
 
 @media only screen and (max-width: 1000px){
     .images{
-        height: 20px;
-        width: 20px;
+        height: 30px;
+        width: 30px;
     }
 }
 
