@@ -46,7 +46,7 @@ a,a:active,a:focus,a:hover {
 
 .hello {
     top: 20%;
-    left: -1%;
+    left: 0%;
     height: 30%;
     background: url(images/logo.png) center center no-repeat;
     background-size: contain;
@@ -68,7 +68,7 @@ a,a:active,a:focus,a:hover {
 
 .skrollable .hello {
     top: 30%;
-    left: -1%;
+    left: 0%;
     opacity: 1
 }
 
