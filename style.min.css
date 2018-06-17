@@ -67,7 +67,7 @@ a,a:active,a:focus,a:hover {
 }
 
 .skrollable .hello {
-    top: 40%;
+    top: 30%;
     left: -1%;
     opacity: 1
 }
@@ -1590,6 +1590,12 @@ body {
 }
 
 
+
+.navbar-logo{
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
 
 
 
