@@ -1202,6 +1202,8 @@ font-size: 0.7em;
     .footer{
         width: 105%;
         height: 13%;
+        margin-bottom: 0px;
+        padding-bottom: 15px;
     }
     #mail{
         display: none;    
