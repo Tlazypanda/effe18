@@ -565,7 +565,7 @@ h2 {
     text-decoration: none
 }
 .contacts__text a.menu-link {
-    margin: 0 0 30px
+    margin: 0 0 30px;
 }
 
 a.menu-link {
@@ -580,7 +580,7 @@ a.menu-link:hover {
 }
 
 .tiny-menu a.menu-link {
-    margin: 0 0 0 20px
+    margin: 0 0 0 20px;
 }
 
 a.about-link,a.menu-link {
