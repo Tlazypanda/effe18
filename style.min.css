@@ -1243,10 +1243,10 @@ font-size: 0.7em;
 
 @media only screen and (max-width: 1000px){
     .footer-frame{
-        margin-top: 0px;
+        margin-top: 2px;
         margin-bottom: 5px;
         position: relative;
-        /*top: -10px;*/
+        top: -20px;
     }
 }
 
