@@ -1224,10 +1224,10 @@ font-size: 0.7em;
 @media only screen and (max-width: 1000px){
     .footer{
         width: 105%;
-        height: 8%;
+        height: 12%;
         margin-bottom: 0px;
         padding-bottom: 15px;
-        bottom: 0%;
+        /*bottom: 30%;*/
     }
     #mail{
         display: none;    
@@ -1244,7 +1244,7 @@ font-size: 0.7em;
 @media only screen and (max-width: 1000px){
     .footer-frame{
         margin-top: 2px;
-        margin-bottom: 5px;
+        margin-bottom: 2px;
         position: relative;
         top: -20px;
     }
@@ -1281,7 +1281,7 @@ font-size: 0.7em;
 
 @media only screen and (max-width: 1000px){
     .footer-effe{
-        font-size: 20px;
+        font-size: 15px;
         margin-top: 2px;
     }
 }
