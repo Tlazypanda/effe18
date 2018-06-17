@@ -443,6 +443,16 @@ h2 {
     font-size: 18px
 }
 
+.arr {position: absolute;
+	top:80%;
+	width: 10vh;
+	height: 10vh;
+	left: 50%;
+	transform: translateX(-50%);
+	
+	
+}
+
 @media only screen and (max-width: 700px){
     .start{
         left: 10px;
@@ -954,7 +964,7 @@ a.about-link {
     }
 }
 #p1{
-    background-image:url(images/i%20n%20t%20o%20x%20i%20c%20a%20t%20e.jpg) ;
+    background-image:url(images/last.jpg) ;
     background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -1369,7 +1379,7 @@ font-size: 0.7em;
 
 .text-clock{
     font-size: 10px;
-  color: rgba(100, 100, 100, 0.8);
+  color: white;
   font-family: helvetica;
 
   
@@ -1396,7 +1406,7 @@ font-size: 0.7em;
 }*/
 
 #days, #hours, #minutes{
-  color:rgba(200, 200, 200, 0.8);
+  color:white;
   font-size: 40px;
   -webkit-transition: opacity .5s ease-in-out;
     -moz-transition: opacity .5s ease-in-out;
@@ -1410,7 +1420,7 @@ font-size: 0.7em;
 
 
 #seconds{
-  color:rgba(200, 200, 200, 0.8);
+  color:white;
   font-size: 40px;
   -webkit-transition: opacity .5s ease-in-out, transform 0.1s ease-in-out;
     -moz-transition: opacity .5s ease-in-out, transform 0.1s ease-in-out;
@@ -1462,7 +1472,7 @@ font-size: 0.7em;
 }
 
 .text-seconds {
-  color: rgba(100, 100, 100, 0.8);
+  color: white;
 }
 
 td {
