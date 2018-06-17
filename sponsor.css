@@ -2,82 +2,100 @@
 @import url('https://fonts.googleapis.com/css?family=Berkshire+Swash');
 
 *{
-  margin:0;
-  padding:0;
-  box-sizing: border-box;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
 body{
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url('images/caa.jpg') no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.5)), url("images/caa.jpg");
+    background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
-nav{
-  margin-top:10px;
+nav a{
+    text-decoration: none;
+    color:white;
+}
+
+nav a:hover{
+    color:white;
+}
+
+nav .navbar-brand{
+    font-family:'Berkshire Swash';
+    font-size:25px;
+    transition: all 100ms ease-in-out;
+}
+
+nav .navbar-brand:hover{
+    text-shadow:0px 0px 15px #DDD;
+
+    transition: all 100ms ease-in-out;
+    
 }
 
 .nav-item{
-  background-color:white;
-  
-  text-decoration:none;
-  margin-right:10px;
-  border-radius:300px;
-  color:black;
-  padding:0 10px;
-  text-align:center;
-  margin-bottom:5px;
-
-}
-
-.navbar-brand{
-  color: white;
-text-decoration: none;
-background-color: transparent;
--webkit-text-decoration-skip: objects;
-font-family: 'Berkshire Swash';
-font-size:140%;
-transition: all 0.2s ease-in-out;
-
-
+    padding:1px 10px;
+    background-color:white;
+    color:black;
+    border-radius:200px;
+    margin-right:10px;
+    margin-bottom:3px;
+    font-family:'Lato', sans-serif;
 }
 
 .nav-item a{
-  text-decoration: none;
-
-  color:black;
-  font-family:'Lato', sans-serif;
-  text-transform: uppercase;
-  font-weight:300;
-  
+    text-decoration: none;
+    color:black;
 }
 
-.navbar-brand:hover{
-  color: white;
-  text-decoration: none;
-  background-color: transparent;
-  -webkit-text-decoration-skip: objects;
-  font-family: 'Berkshire Swash';
-  
-  text-shadow:0px 0px 10px black;  
-  transition: all 0.2s ease-in-out;
+.nav-item a:hover{
+    color:black;
 }
 
 .sb{
-  background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
-  
+    background-image: linear-gradient(-225deg, #FF057C 0%, #8D0B93 50%, #321575 100%);
+    color:white;
 }
 
 .sb a{
-  color:white;
-  font-weight:500;
+    color:white;
 }
 
-.jumbotron{
-  background:none;
-  color:white;
-  padding-top:40px;
-  padding-bottom:10px;
+.sb a:hover{
+    color:white;
+}
+
+.pros{
+    
+    margin-top:40px;
+    
+}
+
+.title{
+    font-size:170%;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+}
+
+.card{
+    border-radius:0;
+    border:none;
+    background:none;
+    font-family:'Lato', sans-serif;
+}
+
+.card .card-title{
+    font-weight:700;
+    font-size:100%;
+    text-transform:uppercase;
+}
+
+.card-img-top{
+    margin-top:15px;
+    margin-bottom:5px;
 }
