@@ -1369,7 +1369,7 @@ font-size: 0.7em;
 
 .text-clock{
     font-size: 10px;
-  color: rgba(100, 100, 100, 0.8);
+  color: white;
   font-family: helvetica;
 
   
@@ -1396,7 +1396,7 @@ font-size: 0.7em;
 }*/
 
 #days, #hours, #minutes{
-  color:rgba(200, 200, 200, 0.8);
+  color:white;
   font-size: 40px;
   -webkit-transition: opacity .5s ease-in-out;
     -moz-transition: opacity .5s ease-in-out;
@@ -1410,7 +1410,7 @@ font-size: 0.7em;
 
 
 #seconds{
-  color:rgba(200, 200, 200, 0.8);
+  color:white;
   font-size: 40px;
   -webkit-transition: opacity .5s ease-in-out, transform 0.1s ease-in-out;
     -moz-transition: opacity .5s ease-in-out, transform 0.1s ease-in-out;
@@ -1462,7 +1462,7 @@ font-size: 0.7em;
 }
 
 .text-seconds {
-  color: rgba(100, 100, 100, 0.8);
+  color: white;
 }
 
 td {
