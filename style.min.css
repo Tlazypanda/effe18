@@ -678,6 +678,22 @@ a.about-link {
 }
 
 @media (max-width: 768px) {
+	.choose--safe span{
+		top:100%;
+	}
+	
+	.choospon span{
+		top:100%;
+	}
+	
+	.choose1 h3{
+		font-size: 12px;
+		top:40%;
+	}
+	.choospon h3{
+		font-size: 12px;
+		top:40%;
+	}
 	a.menu-link{
 		font-size: 8px;
 		padding-left: 2px;
