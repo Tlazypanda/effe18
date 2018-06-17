@@ -46,6 +46,7 @@ a,a:active,a:focus,a:hover {
 
 .hello {
     top: 20%;
+    left: -1%;
     height: 30%;
     background: url(images/logo.png) center center no-repeat;
     background-size: contain;
