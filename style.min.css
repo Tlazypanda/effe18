@@ -54,6 +54,7 @@ a,a:active,a:focus,a:hover {
 
 .hello-effe{
     opacity: 0.5;
+    left: -1%;
 }
 
 .search-for {
@@ -65,7 +66,8 @@ a,a:active,a:focus,a:hover {
 }
 
 .skrollable .hello {
-    top: 30%;
+    top: 40%;
+    left: -1%;
     opacity: 1
 }
 
@@ -1233,6 +1235,10 @@ font-size: 0.7em;
     #mail{
         display: none;    
     }
+}
+
+#mail{
+    text-align: left;
 }
 
 
