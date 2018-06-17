@@ -1227,6 +1227,7 @@ font-size: 0.7em;
         height: 8%;
         margin-bottom: 0px;
         padding-bottom: 15px;
+        bottom: 0%;
     }
     #mail{
         display: none;    
@@ -1245,7 +1246,7 @@ font-size: 0.7em;
         margin-top: 0px;
         margin-bottom: 5px;
         position: relative;
-        top: -10px;
+        /*top: -10px;*/
     }
 }
 
