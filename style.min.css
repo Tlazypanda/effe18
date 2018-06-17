@@ -49,7 +49,11 @@ a,a:active,a:focus,a:hover {
     height: 30%;
     background: url(images/logo.png) center center no-repeat;
     background-size: contain;
-    transition: 1s all linear
+    transition: 1s all linear;
+}
+
+.hello-effe{
+    opacity: 0.3;
 }
 
 .search-for {
@@ -124,6 +128,8 @@ h2 {
     line-height: 1.5em
 }
 
+
+
 .chooses__question {
     line-height: 1.2em;
     font-size: 7vh;
@@ -178,6 +184,8 @@ h2 {
     font-weight: 400;
 }
 
+
+
 .choospon {
     display: inline-block;
     min-width: 120px;
@@ -208,10 +216,16 @@ h2 {
     background-size: 100% auto;
     background-image: url(images/a2f583e26522323ebc328aff4d3cdd36.jpg);
     right:10%;
-    top:200%;
+    top:210%;
     position: absolute;
     width: 15%;
 }
+
+/*@media only screen and (max-width: 1000px){
+    .choospon span{
+        top: 100%;
+    }
+}*/
 
 .choospon h3{
     right:13%;
@@ -453,7 +467,7 @@ h2 {
 	
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1000px){
     .start{
         left: 10px;
     }
@@ -1062,7 +1076,7 @@ a:hover{
 }
 
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1000px){
     .head{
         top: 20%;
         /*color: black;*/
@@ -1156,6 +1170,7 @@ font-size: 0.7em;
     font-weight: 100;
     text-align: center;
     font-size: 30px;
+    z-index: 3000;
 }
 
 
@@ -1366,7 +1381,7 @@ font-size: 0.7em;
     animation: float 6s ease-in-out infinite;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1000px){
     .clock{
         left: 20px;
         top: 30%;
@@ -1442,7 +1457,7 @@ font-size: 0.7em;
     }
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 1000px){
     #days, #hours, #minutes, #seconds{
         font-size: 15px;
     }
@@ -1500,6 +1515,10 @@ body {
     }
 }
 
+
+/*.logo-img{
+    opacity: 0.1;
+}*/
 
 
 
