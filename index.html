@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.min.css">
 	<link rel="stylesheet" href="bootstrap.css">
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	
+	<link rel="stylesheet" href="bootstrap.min.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 
@@ -224,10 +224,20 @@ span.next {
             <a href="http://www.effe.org.in/#sponsorsModal" class="menu-link" target="_blank">Past Sponsors</a>
             
             <a href="#p1" class="menu-link" target="_blank">Campus Ambassador</a>
-            <a href="#p1" class="menu-link" target="_blank">Contact us</a>
+            <a href="javascript:void(0)" class="menu-link" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">Contact us</a>
                            
 			
         </div>
+			 <div id="light" class="white_content">
+				 <div class="container-fluid">
+				 <div class="row">
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 card-contact"><h5>Marketing Team</h5><p><a href="mailto:"></a></p><h6>Name 1<br />(+91-)</h6></div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 card-contact"><h5>Events Team</h5><p><a href="mailto:"></a></p><h6>Name 2<br />(+91-)</h6></div>
+			<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 card-contact"><h5>Publicity Team</h5><p><a href="mailto:"></a></p><h6>Name 3<br />(+91-)</h6></div>
+		</div>
+		</div><a  href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">Close</a>
+  </div>
+  <div id="fade" class="black_overlay"></div>
 
         <div class="hello-effe">
         <div class="hello"><div class="search-for"></div></div>

@@ -1529,14 +1529,56 @@ body {
     }
 }
 
-
+.black_overlay {
+  display: none;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 1001;
+  -moz-opacity: 0.8;
+  opacity: .80;
+  filter: alpha(opacity=80);
+}
+.white_content {
+  display: none;
+  position: fixed;
+  top: 25%;
+  left: 25%;
+  width: 50%;
+  height: 50%;
+  padding: 16px;
+  background-color: black;
+  z-index: 1002;
+  overflow: auto;
+	font-family: "Lato";
+	font-weight: 300;
+	color: white;
+}
 /*.logo-img{
     opacity: 0.1;
 }*/
 
 
 
+.card-contact {
+	transition:0.2s ease-in;
+	
+	border-radius: 2px;
+}
 
+.card-contact h2 {
+	font-family: 'Nixie One', Helvetica, Arial;
+	font-weight: bold;
+}
+
+.card-contact:hover {
+	background-color: black;
+	transform:scale(1.03);
+	box-shadow:0px 0px 10px rgba(0,0,0,0.3);
+}
 
 
 
