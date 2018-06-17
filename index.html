@@ -218,7 +218,7 @@ span.next {
         <div class="tiny-menu fixed-top">
             
             <!-- &nbsp&nbsp&nbsp&nbsp -->
-            <a href="/" class="navbar-logo"><img style="height:50px;width:50px;" src="./images/logo.png" class="logo-img"></a>
+            <a href="/" class="navbar-logo"><img style="height:50px;width:50px;" data-src="./images/logo.png" class="logo-img"></a>
             <a href="images/MarketingBrochure_Effervescence18.pdf"
             class="menu-link">Sponsor Us !</a>
             <a href="http://www.effe.org.in/#sponsorsModal" class="menu-link" target="_blank">Past Sponsors</a>
@@ -331,7 +331,7 @@ span.next {
                         <div class="chooses__question"></div>
                         
                         <div class="camp"></div>
-                        <a href="ca%20files/index.html" class="choose1 choose--safe" ><span><img src="images/35102665_2011720748898639_6493056718287667200_n.png"></span><h3>Campus Ambassador</h3></a>
+                        <a href="ca%20files/index.html" class="choose1 choose--safe" ><span><img data-src="images/35102665_2011720748898639_6493056718287667200_n.png"></span><h3>Campus Ambassador</h3></a>
                         <a href="sponsor.html" class="choospon"><span></span><h3>Sponsor Us</h3></a>
             
                        
@@ -353,16 +353,16 @@ span.next {
                                 <div class="col-6 col-md-4 img-social">
                                     <div class="row">
                                         <div class="col-3 col-md-3">
-                                                <a target="_blank" href="https://www.facebook.com/effervescence.iiita/"><img src="images/facebook-icon.png" class="images"></a>
+                                                <a target="_blank" href="https://www.facebook.com/effervescence.iiita/"><img data-src="images/facebook-icon.png" class="images"></a>
                                         </div>
                                         <div class="col-3 col-md-3">
-                                                <a target="_blank" href="https://www.youtube.com/user/effervescenceMM13/"><img src="images/youtube-icon.png" class="images"></a>
+                                                <a target="_blank" href="https://www.youtube.com/user/effervescenceMM13/"><img data-src="images/youtube-icon.png" class="images"></a>
                                         </div>
                                         <div class="col-3 col-md-3">
-                                                <a target="_blank" href="https://twitter.com/goeffervescence?lang=en"><img src="images/twitter-icon.png" class="images"></a>
+                                                <a target="_blank" href="https://twitter.com/goeffervescence?lang=en"><img data-src="images/twitter-icon.png" class="images"></a>
                                         </div>
                                         <div class="col-3 col-md-3">
-                                                <a target="_blank" href="https://www.instagram.com/goeffervescence/"><img src="images/instagram-icon.png" class="images"></a>
+                                                <a target="_blank" href="https://www.instagram.com/goeffervescence/"><img data-src="images/instagram-icon.png" class="images"></a>
                                         </div>
                                     </div> 
                                 </div>
@@ -610,6 +610,12 @@ $('.slider span.prev').click(function() {
   }
 })
 	</script>
+	<script>[].forEach.call(document.querySelectorAll('img[data-src]'),    function(img) {
+  img.setAttribute('src', img.getAttribute('data-src'));
+  img.onload = function() {
+    img.removeAttribute('data-src');
+  };
+});</script>
 	
 	<script type="text/javascript" src="count.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
