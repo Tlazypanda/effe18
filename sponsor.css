@@ -111,3 +111,7 @@ nav .navbar-brand:hover{
     background-color:#121212;
     border-top:2px solid white;
 }
+
+.contact .col-12{
+    margin-bottom:20px;
+}
