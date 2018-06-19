@@ -1594,7 +1594,8 @@ body {
 
 .card-contact {
 	transition:0.2s ease-in;
-	background-color: rgba(150,150,150,0.5);
+	background-color: rgba(150,150,150,0.2);
+    /*background-color: rgba();*/
 	border-radius: 2px;
 	padding: 15px 15px 0px 15px;
 	border:4px solid black;
@@ -1635,6 +1636,7 @@ img[data-src] {
 	width: 150px;
 	height: 150px;
 	border-radius: 50%;
+    margin-bottom: 10px;
 }
 
 /*@media(max-width: 1000){
