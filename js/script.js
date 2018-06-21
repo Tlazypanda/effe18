@@ -27,7 +27,6 @@ function launchTimer() {
   }
 
   i *= -1
-  console.log(day);
   let currentDate = (new Date()).getTime();
   var d = new Date();  
   let launchDate = (new Date(2018, 09, 04, 0)).getTime();
