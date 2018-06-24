@@ -29,7 +29,7 @@ function launchTimer() {
   i *= -1
   let currentDate = (new Date()).getTime();
   var d = new Date();  
-  let launchDate = (new Date(2018, 09, 04, 0)).getTime();
+  let launchDate = (new Date(2018, 09, 05, 0)).getTime();
   
   let timerDifference = launchDate - currentDate;
   
