@@ -29,22 +29,22 @@ function launchTimer() {
   i *= -1
   let currentDate = (new Date()).getTime();
   var d = new Date();  
-  let launchDate = (new Date(2018, 09, 04, 0)).getTime();
+  let launchDate = (new Date(2018, 09, 05, 0)).getTime();
   
   let timerDifference = launchDate - currentDate;
   
-  let seconds = Math.floor(timerDifference/1000);
-  let minutes = Math.floor(seconds/60);
-  let hours = Math.floor(minutes/60);
-  let days = Math.floor(hours/24);
+var seconds = Math.floor( (timerDifference/1000) % 60 );
+	var minutes = Math.floor( (timerDifference/1000/60) % 60 );
+	var hours = Math.floor( (timerDifference/(1000*60*60)) % 24 );
+	var days = Math.floor( timerDifference/(1000*60*60*24) );
   
 
   day.innerText = days;
-  hour.innerText = hours%24;
-  minute.innerText = minutes%60;
-  if(second.innerText != seconds%60){
-    second.innerText = seconds%60;
-  }
+  hour.innerText = hours;
+  minute.innerText = minutes;
+ 
+    second.innerText = seconds;
+ 
   
   
   setTimeout(launchTimer, 500);
