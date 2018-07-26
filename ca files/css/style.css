@@ -5,7 +5,14 @@
  *
  * Made By MaterializeCSS.com
  */
-
+.card-image{
+	
+}
+.pic{
+	width: 200px;
+	height: 200px;
+	
+}
 #index-banner{
 	height: 800px;
 }
